@@ -1,0 +1,16 @@
+TransactionID,CustomerName,Amount,TransactionType,Location,Timestamp,Status,FlagReason,RiskScore
+TXN-1001,Emma Watson,120.50,Online Payment,"New York, USA",2026-11-06 12:02:28,LEGITIMATE,Normal transaction pattern,5.0
+TXN-1002,Liam Smith,450.00,POS Purchase,"London, UK",2026-11-06 16:02:28,LEGITIMATE,Normal transaction pattern,12.0
+TXN-1003,Sophia Chen,2300.00,Wire Transfer,"Singapore, SG",2026-11-06 22:02:28,LEGITIMATE,Within regular customer threshold,20.0
+TXN-1004,Noah Brown,85.00,ATM Withdrawal,"Sydney, AUS",2026-11-07 01:02:28,LEGITIMATE,Normal ATM cash withdrawal,8.0
+TXN-1005,Emma Watson,210.00,POS Purchase,"New York, USA",2026-11-07 06:02:28,LEGITIMATE,Standard retail shopping,10.0
+TXN-1006,Oliver Davis,18500.00,Wire Transfer,"Geneva, CHE",2026-11-07 10:02:28,SUSPICIOUS,"High amount exceeds configured threshold ($10,000.00)",88.0
+TXN-1007,Ava Taylor,340.75,Online Payment,"Toronto, CAN",2026-11-07 12:02:28,LEGITIMATE,Verified e-commerce gateway,14.0
+TXN-1008,Liam Smith,520.00,POS Purchase,"London, UK",2026-11-07 16:02:28,LEGITIMATE,Consistent local spending,11.0
+TXN-1009,Lucas Martin,2800.00,Online Transfer,"Berlin, DEU",2026-11-08 10:02:28,SUSPICIOUS,Velocity Spike: 4 consecutive transactions detected in under 15 minutes,82.0
+TXN-1010,Lucas Martin,3100.00,Online Transfer,"Berlin, DEU",2026-11-08 10:07:28,SUSPICIOUS,Velocity Spike: rapid successive transfers from same account,85.0
+TXN-1011,Noah Brown,9400.00,Wire Transfer,"Tokyo, JPN",2026-11-08 10:32:28,SUSPICIOUS,Significant deviation: Amount is 11.2x higher than historical customer average ($85.00),91.0
+TXN-1012,Sophia Chen,680.00,POS Purchase,"Singapore, SG",2026-11-08 11:02:28,LEGITIMATE,Routine merchant point-of-sale,15.0
+TXN-1013,Mia Anderson,150.00,ATM Withdrawal,"Chicago, USA",2026-11-08 11:22:28,LEGITIMATE,Regular ATM withdrawal,6.0
+TXN-1014,Alexander White,12500.00,ATM Withdrawal,"Moscow, RUS",2026-11-08 11:47:28,SUSPICIOUS,"High amount exceeds threshold ($10,000) & off-hours abnormal cashout",96.0
+TXN-1015,Ava Taylor,75.25,Online Payment,"Toronto, CAN",2026-11-08 11:57:28,LEGITIMATE,Verified micro-payment transaction,4.0
